@@ -29,7 +29,6 @@
 .mob_blog_header {
   max-width: 550px;
   margin: 0 auto;
-  border: 1px solid green;
   padding: 1rem;
   padding-top: 0;
 }
@@ -89,7 +88,6 @@ input[class="mob_blog_search_input"] {
   max-width: 550px;
   margin: 0 auto;
   padding: 1rem;
-  border: 1px solid red;
 }
 
 .mob_blog_best {
