@@ -147,7 +147,7 @@ input[class="mob_blog_search_input"] {
   font-family: DM Sans;
   font-size: 0.75rem;
   font-weight: 500;
-  margin-top: 1.3rem;
+  margin-top: 0.5rem;
   margin-bottom: 0.5rem;
 }
 
@@ -165,42 +165,83 @@ input[class="mob_blog_search_input"] {
 }
 
 .mob_blog_box_img {
-    flex: 0 0 auto; /* Allow the image to shrink and grow, but not shrink smaller than its content */
-    width: 35%;
-    display: flex;
-    align-items: stretch; /* Ensure the image takes the full height of its container */
-  }
+  flex: 0 0 auto; /* Allow the image to shrink and grow, but not shrink smaller than its content */
+  width: 35%;
+  display: flex;
+  align-items: stretch; /* Ensure the image takes the full height of its container */
+}
 
-  .mob_blog_txt_style{
-    margin:1rem;
-  }
-
-
-
+.mob_blog_txt_style {
+  margin: 1rem;
+}
 
 .mob_blog_flex {
+  display: flex;
+  align-items: stretch; /* Make sure all flex items take the full height of the tallest item */
+  margin-top: 1.5rem;
+  height: 100%;
+}
+
+.mob_blog_box_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
+  border-radius: 0.625rem;
+}
+
+.mob_blog_scout {
+  flex: 1;
+  color: #222;
+  font-family: DM Sans;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.mob_blog_sepration {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.mob_blog_sepration_2 {
+  margin-top: 0.9rem;
+  margin-bottom: 0.9rem;
+}
+
+.mob_blog_line {
+  width: 100%;
+  height: 0.1rem;
+  background-color: #dcdcdc;
+}
+
+.mob_blog_topics {
+  border-radius: 0.625rem;
+  background: #fff;
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.08);
+  padding: 1rem;
+  margin-top: 1.5rem;
+}
+
+.mob_blog_related {
+  color: #222;
+  font-family: DM Sans;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 0.9rem;
+}
+
+.mob_blog_current{
     display: flex;
-    align-items: stretch; /* Make sure all flex items take the full height of the tallest item */
-    margin-top: 1.5rem;
-    height: 100%;
-  }
-  
- 
-  
-  .mob_blog_box_img img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
-    border-radius: 0.625rem;
-  }
-  
-  .mob_blog_scout {
-    flex: 1;
-    color: #222;
-    font-family: DM Sans;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 600;
-  }
-  
-  
+    justify-content: start;
+    align-items: start;
+}
+
+.mob_blog_world_cup{
+    color:#505050;
+font-family: DM Sans;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 500;
+margin-left: 0.3rem;
+margin-top: -0.1rem;
+}
