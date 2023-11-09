@@ -168,7 +168,7 @@ input[class="mob_blog_search_input"] {
 
 .mob_blog_box_img {
     flex: 0 0 auto; /* Allow the image to shrink and grow, but not shrink smaller than its content */
-    width: 40%;
+    width: 30%;
     display: flex;
     align-items: stretch; /* Ensure the image takes the full height of its container */
   }
