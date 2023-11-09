@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,300;9..40,400&family=Montserrat&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mob_blog_heading {
+  color: #222;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.mob_blog_heading span {
+  color: #fe5c4d;
+  font-family: DM Sans;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.02563rem;
+  text-transform: capitalize;
+}
+
+.mob_blog_header {
+  max-width: 550px;
+  margin: 0 auto;
+  border: 1px solid green;
+  padding: 1rem;
+  padding-top: 0;
+}
+
+.mob_blog_top_text {
+  color: #505050;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  margin-top: 0.2rem;
+}
+
+.mob_blog_search {
+  flex: 1;
+  overflow: hidden;
+  position: relative;
+  margin-top: 1.5rem;
+  width: 100%;
+}
+
+.mob_blog_search input::placeholder {
+  font-size: 0.8rem;
+}
+
+input[class="mob_blog_search_input"] {
+  width: 100%;
+  height: 100%;
+  /* Set the height to 100% */
+  border: 1px solid #dcdcdc;
+  padding: 14px;
+  outline: none;
+  font-size: 16px;
+}
+
+.mob_blog_search_input:first-child {
+  padding-right: 70px;
+}
+
+.mob_blog_search_text {
+  background-color: #e73725;
+  color: #fff;
+  padding: 10px;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mob_blog_container {
+  max-width: 550px;
+  margin: 0 auto;
+  padding: 1rem;
+  border: 1px solid red;
+}
+
+.mob_blog_best {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mob_blog_popular {
+  color: #222;
+  font-family: DM Sans;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.mob_blog_view {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.mob_blog_view_txt {
+  color: #505050;
+  font-family: DM Sans;
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-right: 0.2rem;
+}
+
+.mob_blog_nutrition {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mob_blog_nutrition img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.625rem;
+  margin-top: 0.62rem;
+}
+
+.mob_blog_fit {
+  color: #222;
+  font-family: DM Sans;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 600;
+  text-align: justify;
+  margin-top: 0.5rem;
+}
+
+.mob_blog_time {
+  color: #aaa;
+  font-family: DM Sans;
+  font-size: 0.75rem;
+  font-weight: 500;
+  margin-top: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.mob_blog_short_txt {
+  color: #505050;
+  font-family: DM Sans;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.mob_blog_box {
+  border-radius: 0.625rem;
+  background: #fff;
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.08);
+}
+
+.mob_blog_box_img {
+    flex: 0 0 auto; /* Allow the image to shrink and grow, but not shrink smaller than its content */
+    width: 40%;
+    display: flex;
+    align-items: stretch; /* Ensure the image takes the full height of its container */
+  }
+
+  .mob_blog_txt_style{
+    margin:1rem;
+  }
+
+
+
+
+.mob_blog_flex {
+    display: flex;
+    align-items: stretch; /* Make sure all flex items take the full height of the tallest item */
+    margin-top: 1.5rem;
+    height: 100%;
+  }
+  
+ 
+  
+  .mob_blog_box_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
+    border-radius: 0.625rem;
+  }
+  
+  .mob_blog_scout {
+    flex: 1;
+    color: #222;
+    font-family: DM Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+  }
+  
+  
